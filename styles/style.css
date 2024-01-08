@@ -293,15 +293,20 @@ section {
 }
 
 #surprise {
-    height: 400px;
-    width: 500px;
-    transform: translate(2%, 65%);
+    height: 500px;
+    width: 600px;
+    transform: translate(0%, 30%);
 }
 
 /* Portfolio style */
 
 .portfolio-text {
     margin-bottom: 40px;
+}
+
+.img-group{
+    width: 1150px;
+    table-layout: fixed;
 }
 
 .portfolio-text>h4 {
@@ -327,8 +332,8 @@ section {
 }
 
 .img-data>img {
-    width: 374px;
-    height: 400px;
+    width: 364px;
+    height: 380px;
     margin: 5px;
 }
 
@@ -430,3 +435,6 @@ section {
     font-weight: 500;
 }
 
+hr{
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+}
